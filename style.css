@@ -1,0 +1,220 @@
+/*  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">*/
+  
+  @font-face {
+    font-family: HankenGroteski;
+    src: url(HankenGrotesk-Medium.ttf);
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family:HankenGrotesk;
+    src: url(HankenGrotesk-Bold.ttf);
+   font-weight: 700;
+}
+
+@font-face {
+    font-family: HankenGroteska;
+    src: url(HankenGrotesk-ExtraBold.ttf);
+    font-weight: 800;
+  }
+
+ 
+  body{
+ 
+
+  }
+
+.container{
+ 
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+ height: 100vh;
+}
+  .container1{
+    background-color: white;
+     width: 300px;
+     height: 380px;
+    border-radius: 10%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+     box-shadow: 0px 0px 30px  hsl(241, 100%, 89%);
+  }
+
+.text1{
+  margin-top: 20px;
+  color:hsl(241, 100%, 89%) ;
+  font-family: HankenGrotesk;
+}
+
+.text{
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 50%;;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+
+.text2{
+  text-align: center;
+  color:  hsl(0, 0%, 100%);
+  font-family: HankenGroteska;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+ 
+}
+.text3{
+  text-align: center;
+  color: hsl(241, 100%, 89%) ;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  font-family: HankenGrotesk;
+  font-size: small;
+}
+
+.text4{
+  color:hsl(221, 100%, 96%);
+  font-family: HankenGrotesk; 
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.text5{
+  color: hsl(241, 100%, 89%);  
+   font-family: HankenGroteski;
+   font-size: 15px;
+   padding-left: 15%;
+   padding-right: 15%;
+   margin-top: 10px;
+}
+
+  .container2{
+  background-color: white;
+   width: 300px;
+   height: 380px;
+   
+   border-radius: 10%;
+   display: flex;
+   flex-direction: column;
+  box-shadow: 0px 0px 30px  hsl(241, 100%, 89%);
+   
+  }
+.buttons{
+  background-color: white;
+  align-items: center;
+  display: flex;
+ flex-direction: column;
+
+ 
+ }
+ #btn{
+    width:85%;
+    padding: 2%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: hsl(224, 30%, 27%);
+    font-family: HankenGroteska;
+   }
+ 
+ .btnlightpink{
+ /* display: block;*/
+
+ display: inline-flex;
+ justify-content: space-between;
+ align-items: center;
+  width:85%;
+  padding:4%;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color:hsla(0, 100%,80%, 0.1);
+  color:hsl(0, 100%, 67%);
+  border: none;
+ 
+ 
+ }
+ .btnlightorange{
+  display: inline-flex;
+ justify-content: space-between;
+ align-items: center;
+ border: none;
+  width:85%;
+  padding:4%;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color:  hsla(39, 100%,80%, 0.1);
+  color: hsl(39, 100%, 56%);
+ }
+ .btnlightgreen{
+  display: inline-flex;
+ justify-content: space-between;
+ align-items: center;
+  background-color: hsla(166, 100%,80%, 0.1);
+  color: hsl(166, 100%, 37%);
+  border: none;
+  width:85%;
+  padding: 4%;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 10px;
+ }
+
+ .btndeepblue{
+  display: inline-flex;
+ justify-content: space-between;
+
+  background-color: hsla(234, 100%,80%, 0.1);
+  color:  hsl(234, 85%, 45%);
+  border: none;
+  width:85%;
+  padding: 4%;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+ }
+ .button{
+  border: none;
+  width:85%;
+  padding: 4%;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+  color:white ;
+ }
+.button:hover{
+  background: darkblue;
+}
+ #icons{
+
+ display: inline-flex;
+ align-items: center;
+ padding-top: 0;
+ padding-bottom: 0%;
+ padding-left: 0;
+ padding-right: 3px;
+ }
+ 
